@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# File to be ignored
+*.xlsx
+*.pickle
+
+
 # Distribution / packaging
 .Python
 build/
