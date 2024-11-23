@@ -14,7 +14,7 @@ pip install -r requirements.txt
 Thus it is difficult to find the right distances between each node when using the human gaze heuristic or A* heuristic (euclidean distance). 
 
 
-
+2. HG4 was removed due to lack of documentation
 
 
 ## ENVIRONMENT VARIABLES REQUIRED
