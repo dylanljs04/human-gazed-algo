@@ -9,7 +9,7 @@ pip install -r requirements.txt
 
 ## Notes
 
-1. I chose to convert lngitude and latitude of the real world networks into x and y coordinates and then calculate the distance between each node based on the (x,y) coordinates instead of using the optical fibre weights. This is becasue the weights given in the dataset are modified to be 1.25*Haversine/ 1.5*Haversine or 1500km depending on the value of Haversine. 
+1. I chose to convert longitude and latitude of the real world networks into x and y coordinates and then calculate the distance between each node based on the (x,y) coordinates instead of using the optical fibre weights. This is becasue the weights given in the dataset are modified to be 1.25*Haversine/ 1.5*Haversine or 1500km depending on the value of Haversine. 
 
 Thus it is difficult to find the right distances between each node when using the human gaze heuristic or A* heuristic (euclidean distance). 
 
@@ -230,7 +230,7 @@ manager_safe_tools = [
     tnb_tools.agent_fill_up_tnb_meter_application
 ]
 
-manager_sensitive_tools = [
+manager_sensitive_tools = [,
     tnb_tools.agent_retrieve_monthly_bill_pdf,
 ]
 ```
