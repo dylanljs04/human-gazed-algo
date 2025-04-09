@@ -15,7 +15,7 @@ Thus it is difficult to find the right distances between each node when using th
 
 
 2. HG4 was removed due to lack of documentation
-
+<!-- 
 
 ## ENVIRONMENT VARIABLES REQUIRED
 ```
@@ -389,4 +389,4 @@ Here's how it works:
 2. Query Matching: the function generates embeddings for the user query and finds the closest matching database descriptions.
 3. Contextual Analysis: the matched descriptions are analyzed by an LLM to identify the most relevant database.
 4. Database Selection: the query is then routed to the correct PostgreSQL database based on the LLM’s decision.
-
+ -->

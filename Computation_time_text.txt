@@ -1,0 +1,6 @@
+Computation time:
+This program was tested on the 07 April 2025 on a computer with a armprocessor with a maximum clock frequency of 3504 MHz with 8 physical cores, 8 logical cores and 8.00GB of RAM, using the Operating System Darwin Darwin Kernel Version 23.1.0: Mon Oct  9 21:28:31 PDT 2023; root:xnu-10002.41.9~6/RELEASE_ARM64_T8112. With this hardware and software combination the response time (time taken from start to end of process) for this program took [insert time with units] to complete.
+
+This text was generated using the open source code and text template in:
+D Harris-Birtill and R Harris-Birtill, "Understanding computation time: A critical discussion of time as a computational performance metric", Time in Variance (The Study of Time XVII), Brill.
+
